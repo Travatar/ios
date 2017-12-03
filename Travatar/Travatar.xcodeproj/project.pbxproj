@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079C45352C16B18386DEADB6 /* Pods_Travatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1896B3CEB990E50BA58BB91C /* Pods_Travatar.framework */; };
+		ED745E291FCEB631002EE2FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED745E281FCEB631002EE2FD /* AppDelegate.swift */; };
+		ED745E2B1FCEB631002EE2FD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED745E2A1FCEB631002EE2FD /* MainViewController.swift */; };
+		ED745E2E1FCEB631002EE2FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED745E2C1FCEB631002EE2FD /* Main.storyboard */; };
+		ED745E301FCEB631002EE2FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED745E2F1FCEB631002EE2FD /* Assets.xcassets */; };
+		ED745E331FCEB631002EE2FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED745E311FCEB631002EE2FD /* LaunchScreen.storyboard */; };
+		EDD544DA1FD0912600A97AE0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD544D91FD0912600A97AE0 /* UserManager.swift */; };
+		EDDDD6651FD191BA0032DCC4 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDDD6641FD191BA0032DCC4 /* LoginScreen.xib */; };
+		EDE344441FD19692008648EC /* CustomAuthPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE344431FD19692008648EC /* CustomAuthPickerViewController.swift */; };
+		EDE344471FD2C560008648EC /* UINavigationController+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE344461FD2C560008648EC /* UINavigationController+Custom.swift */; };
+		EDE344671FD2DF80008648EC /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE344661FD2DF80008648EC /* HeaderView.xib */; };
+		EDE344691FD2E03E008648EC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE344681FD2E03E008648EC /* HeaderView.swift */; };
+		EDF3BD991FD0046300252131 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDF3BD981FD0046200252131 /* GoogleService-Info.plist */; };
+		EDF3BD9D1FD010E900252131 /* ProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3BD9C1FD010E900252131 /* ProviderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1896B3CEB990E50BA58BB91C /* Pods_Travatar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travatar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808396A3D6B1C5B800EFB8E0 /* Pods-Travatar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travatar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travatar/Pods-Travatar.debug.xcconfig"; sourceTree = "<group>"; };
+		C04CBB6DA28806662BF9FEA8 /* Pods-Travatar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travatar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travatar/Pods-Travatar.release.xcconfig"; sourceTree = "<group>"; };
+		ED745E251FCEB631002EE2FD /* Travatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED745E281FCEB631002EE2FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED745E2A1FCEB631002EE2FD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ED745E2D1FCEB631002EE2FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED745E2F1FCEB631002EE2FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED745E321FCEB631002EE2FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED745E341FCEB631002EE2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD544D91FD0912600A97AE0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EDDDD6641FD191BA0032DCC4 /* LoginScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
+		EDE344431FD19692008648EC /* CustomAuthPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthPickerViewController.swift; sourceTree = "<group>"; };
+		EDE344461FD2C560008648EC /* UINavigationController+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Custom.swift"; sourceTree = "<group>"; };
+		EDE344661FD2DF80008648EC /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		EDE344681FD2E03E008648EC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EDF3BD981FD0046200252131 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDF3BD9C1FD010E900252131 /* ProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED745E221FCEB631002EE2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079C45352C16B18386DEADB6 /* Pods_Travatar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DF08244BE2188E94D680D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1896B3CEB990E50BA58BB91C /* Pods_Travatar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8FEB5C4702FBF1241F59F24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				808396A3D6B1C5B800EFB8E0 /* Pods-Travatar.debug.xcconfig */,
+				C04CBB6DA28806662BF9FEA8 /* Pods-Travatar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED745E1C1FCEB631002EE2FD = {
+			isa = PBXGroup;
+			children = (
+				ED745E271FCEB631002EE2FD /* Travatar */,
+				ED745E261FCEB631002EE2FD /* Products */,
+				E8FEB5C4702FBF1241F59F24 /* Pods */,
+				9DF08244BE2188E94D680D83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED745E261FCEB631002EE2FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED745E251FCEB631002EE2FD /* Travatar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED745E271FCEB631002EE2FD /* Travatar */ = {
+			isa = PBXGroup;
+			children = (
+				EDE344451FD2C53A008648EC /* Extensions */,
+				EDDDD6661FD191C10032DCC4 /* UI */,
+				EDF3BD9A1FD010C900252131 /* ViewControllers */,
+				ED745E281FCEB631002EE2FD /* AppDelegate.swift */,
+				EDD544D91FD0912600A97AE0 /* UserManager.swift */,
+				ED745E2F1FCEB631002EE2FD /* Assets.xcassets */,
+				ED745E341FCEB631002EE2FD /* Info.plist */,
+				EDF3BD981FD0046200252131 /* GoogleService-Info.plist */,
+			);
+			path = Travatar;
+			sourceTree = "<group>";
+		};
+		EDDDD6661FD191C10032DCC4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ED745E2C1FCEB631002EE2FD /* Main.storyboard */,
+				EDDDD6641FD191BA0032DCC4 /* LoginScreen.xib */,
+				ED745E311FCEB631002EE2FD /* LaunchScreen.storyboard */,
+				EDE344661FD2DF80008648EC /* HeaderView.xib */,
+				EDE344681FD2E03E008648EC /* HeaderView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EDE344451FD2C53A008648EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDE344461FD2C560008648EC /* UINavigationController+Custom.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EDF3BD9A1FD010C900252131 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED745E2A1FCEB631002EE2FD /* MainViewController.swift */,
+				EDF3BD9C1FD010E900252131 /* ProviderViewController.swift */,
+				EDE344431FD19692008648EC /* CustomAuthPickerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED745E241FCEB631002EE2FD /* Travatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED745E371FCEB631002EE2FD /* Build configuration list for PBXNativeTarget "Travatar" */;
+			buildPhases = (
+				3458209B03505DB08F4D6B75 /* [CP] Check Pods Manifest.lock */,
+				ED745E211FCEB631002EE2FD /* Sources */,
+				ED745E221FCEB631002EE2FD /* Frameworks */,
+				ED745E231FCEB631002EE2FD /* Resources */,
+				B642610FC3E249E484C7147D /* [CP] Embed Pods Frameworks */,
+				FBDAC7CBFCADD17ED9ED3394 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travatar;
+			productName = Travatar;
+			productReference = ED745E251FCEB631002EE2FD /* Travatar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED745E1D1FCEB631002EE2FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Nikolay Derkach";
+				TargetAttributes = {
+					ED745E241FCEB631002EE2FD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ED745E201FCEB631002EE2FD /* Build configuration list for PBXProject "Travatar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED745E1C1FCEB631002EE2FD;
+			productRefGroup = ED745E261FCEB631002EE2FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED745E241FCEB631002EE2FD /* Travatar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED745E231FCEB631002EE2FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED745E331FCEB631002EE2FD /* LaunchScreen.storyboard in Resources */,
+				EDF3BD991FD0046300252131 /* GoogleService-Info.plist in Resources */,
+				EDDDD6651FD191BA0032DCC4 /* LoginScreen.xib in Resources */,
+				EDE344671FD2DF80008648EC /* HeaderView.xib in Resources */,
+				ED745E301FCEB631002EE2FD /* Assets.xcassets in Resources */,
+				ED745E2E1FCEB631002EE2FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3458209B03505DB08F4D6B75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travatar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B642610FC3E249E484C7147D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Travatar/Pods-Travatar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLocation/SwiftLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travatar/Pods-Travatar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBDAC7CBFCADD17ED9ED3394 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Travatar/Pods-Travatar-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseTwitterAuthUI.bundle,
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travatar/Pods-Travatar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED745E211FCEB631002EE2FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3BD9D1FD010E900252131 /* ProviderViewController.swift in Sources */,
+				ED745E2B1FCEB631002EE2FD /* MainViewController.swift in Sources */,
+				EDE344441FD19692008648EC /* CustomAuthPickerViewController.swift in Sources */,
+				EDD544DA1FD0912600A97AE0 /* UserManager.swift in Sources */,
+				EDE344471FD2C560008648EC /* UINavigationController+Custom.swift in Sources */,
+				ED745E291FCEB631002EE2FD /* AppDelegate.swift in Sources */,
+				EDE344691FD2E03E008648EC /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED745E2C1FCEB631002EE2FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED745E2D1FCEB631002EE2FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED745E311FCEB631002EE2FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED745E321FCEB631002EE2FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED745E351FCEB631002EE2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED745E361FCEB631002EE2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED745E381FCEB631002EE2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808396A3D6B1C5B800EFB8E0 /* Pods-Travatar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GHXTK3SK7;
+				INFOPLIST_FILE = Travatar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.derka.Travatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ED745E391FCEB631002EE2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04CBB6DA28806662BF9FEA8 /* Pods-Travatar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GHXTK3SK7;
+				INFOPLIST_FILE = Travatar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.derka.Travatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED745E201FCEB631002EE2FD /* Build configuration list for PBXProject "Travatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED745E351FCEB631002EE2FD /* Debug */,
+				ED745E361FCEB631002EE2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED745E371FCEB631002EE2FD /* Build configuration list for PBXNativeTarget "Travatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED745E381FCEB631002EE2FD /* Debug */,
+				ED745E391FCEB631002EE2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED745E1D1FCEB631002EE2FD /* Project object */;
+}

@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+
+target 'Travatar' do
+  use_frameworks!
+
+  # Firebase
+  pod 'Firebase/Core'
+  pod 'FirebaseUI'
+  pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Twitter'
+  
+  pod 'SwiftLocation', :git => 'https://github.com/malcommac/SwiftLocation.git'
+end
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7Mw-Id-oit" userLabel="Header View" customClass="HeaderView" customModule="Travatar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="242" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtI-mG-1HX">
+                    <rect key="frame" x="100" y="10" width="175" height="44"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="175" id="3Is-Tg-IU3"/>
+                        <constraint firstAttribute="height" constant="44" id="Jaw-LU-9pD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="Enable Location">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="authTapped:" destination="7Mw-Id-oit" eventType="touchUpInside" id="Pdc-fH-eoM"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travatar requires &quot;Always&quot; location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcp-DL-O6V">
+                    <rect key="frame" x="10" y="59" width="355" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="zNk-yp-2Om"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="LtI-mG-1HX" firstAttribute="centerX" secondItem="7Mw-Id-oit" secondAttribute="centerX" id="Mzq-7a-RhZ"/>
+                <constraint firstItem="fcp-DL-O6V" firstAttribute="leading" secondItem="7Mw-Id-oit" secondAttribute="leading" constant="10" id="NMG-zD-prd"/>
+                <constraint firstItem="fcp-DL-O6V" firstAttribute="top" secondItem="LtI-mG-1HX" secondAttribute="bottom" constant="5" id="Nzl-cv-Fkn"/>
+                <constraint firstItem="LtI-mG-1HX" firstAttribute="top" secondItem="7Mw-Id-oit" secondAttribute="top" constant="10" id="lol-yk-lce"/>
+                <constraint firstAttribute="trailing" secondItem="fcp-DL-O6V" secondAttribute="trailing" constant="10" id="noe-29-x2L"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="9hB-BF-M2w"/>
+            <point key="canvasLocation" x="-80.5" y="170.5"/>
+        </view>
+    </objects>
+</document>
